@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: brewery-monolith
+  messages:
+    basename: messages/messages
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+  jackson:
+    serialization : {write-dates-as-timestamps : false , write-date-timestamps-as-nanoseconds : true}
+  security:
+    user:
+      name: techrevolution
+      password: Welcome@123
+server:
+  port: 8080
+
+
+
+
